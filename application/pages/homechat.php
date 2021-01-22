@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Home</title>
+	<title>Tyson9Tech Chat Group</title>
 	<link rel="stylesheet" type="text/css" href="../../css/styles.css">
 </head>
 
@@ -125,9 +125,9 @@
 
 	<section id="mainSection">
 		<header id="headerMain">
-			<h1 id="chatTittle">Tyson9Tech Chat Room</h1>
+			<h1 id="chatTittle">Tyson9Tech Chat Group</h1>
 		</header>
-		
+
 		<main id="main"></main>
 
 		<footer id="footerMain">
