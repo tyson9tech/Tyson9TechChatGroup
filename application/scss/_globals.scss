@@ -1,0 +1,170 @@
+@font-face{
+	src: url(fonts/Poppins/Poppins-Thin.ttf);
+	font-family: pop;
+}
+
+html{
+	font-size: 100%;
+	box-sizing: border-box;
+	font-family: pop;
+
+}
+
+*, *::before, *::after{
+	padding: 0;
+	margin: 0;
+	border-style: inherit;
+	list-style-type: none;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.pages{
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+
+	#leftSection{
+		display: flex;
+		flex-direction: column;
+		background-color: #08001c;
+
+		#userProfile{
+			flex: 1;
+			display: flex;
+			flex-direction: column;
+			background-color: #08001c;
+			padding: 0.5rem;
+
+			#userImage{
+				cursor: pointer;
+				width: 7rem;
+				height: 7rem;
+				background-color: #ffffff;
+				border-radius: 50%;
+				margin: .2rem auto;
+			}
+			#userName{
+				margin: 0 auto;
+			}
+			#userMail{
+				margin: .2rem auto;
+			}
+		}
+
+		#users{
+			flex: 3;
+			display: flex;
+			flex-direction: column;
+			background-color: #08001c;
+			padding: .1rem;
+			margin: .5rem 0;
+			overflow-y: scroll;
+
+			.user{
+				display: flex;
+				align-items: center;
+				background-color: #030304;
+				margin: .1rem 0;
+				padding: .1rem .5rem;
+				height: 2.5rem;
+				font-weight: bold;
+				cursor: pointer;
+
+				.anyUserImage {
+					width: 2.5rem;
+					height: 2.5rem;
+					border-radius: 50%;
+					background-color: #ffffff;
+					margin: .1rem;
+				}
+
+				.anyUserName {
+					flex: 3;
+					display: flex;
+					justify-content: center;
+					background-color: #2e2d2d;
+					margin: .5rem;
+				}
+
+				.status{
+					width: .5rem;
+					height: .5rem;
+					border-radius: 50%;
+				}
+
+				.online{
+					background-color: #00ff00;
+				}
+				.offline{
+					background-color: #808080;
+				}
+			}
+		}
+	}
+
+	#mainSection{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+
+		#headerMain{
+			flex: 1;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: #08001c;
+
+			#chatTittle{
+				text-align: center;
+				font-size: 2rem;
+			}
+		}
+		#main{
+			flex: 10;
+			background-color: #888899;
+		}
+		#footerMain{
+			display: flex;
+			justify-content: center;
+			padding: .1rem;
+			flex: 1;
+			background-color: #08001c;
+
+			#form{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 80%;
+				height: 90%;
+				margin: .2rem;
+
+				#msgText{
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					width: 90%;
+					height: 90%;
+					padding: .1rem 1rem;
+					border-radius: 1rem 0 0 1rem;
+					outline: none;
+					border: none;
+					background-color: #01030c;
+					overflow: hidden;
+				}
+
+				#sndMsg{
+					cursor: pointer;
+					color: #08001c;
+					padding: 0 .5rem;
+					height: 50%;
+					border-radius: 0 1rem 1rem 0;
+					font-weight: bold;
+					outline: none;
+					border: none;
+				}
+			}
+		}
+	}
+}

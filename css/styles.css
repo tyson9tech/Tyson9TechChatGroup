@@ -1,0 +1,239 @@
+@font-face {
+  src: url(fonts/Poppins/Poppins-Thin.ttf);
+  font-family: pop;
+}
+
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: pop;
+}
+
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  border-style: inherit;
+  list-style-type: none;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.pages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.pages #leftSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #08001c;
+}
+
+.pages #leftSection #userProfile {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #08001c;
+  padding: 0.5rem;
+}
+
+.pages #leftSection #userProfile #userImage {
+  cursor: pointer;
+  width: 7rem;
+  height: 7rem;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin: .2rem auto;
+}
+
+.pages #leftSection #userProfile #userName {
+  margin: 0 auto;
+}
+
+.pages #leftSection #userProfile #userMail {
+  margin: .2rem auto;
+}
+
+.pages #leftSection #users {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #08001c;
+  padding: .1rem;
+  margin: .5rem 0;
+  overflow-y: scroll;
+}
+
+.pages #leftSection #users .user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #030304;
+  margin: .1rem 0;
+  padding: .1rem .5rem;
+  height: 2.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.pages #leftSection #users .user .anyUserImage {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: #ffffff;
+  margin: .1rem;
+}
+
+.pages #leftSection #users .user .anyUserName {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #2e2d2d;
+  margin: .5rem;
+}
+
+.pages #leftSection #users .user .status {
+  width: .5rem;
+  height: .5rem;
+  border-radius: 50%;
+}
+
+.pages #leftSection #users .user .online {
+  background-color: #00ff00;
+}
+
+.pages #leftSection #users .user .offline {
+  background-color: #808080;
+}
+
+.pages #mainSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.pages #mainSection #headerMain {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #08001c;
+}
+
+.pages #mainSection #headerMain #chatTittle {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.pages #mainSection #main {
+  -webkit-box-flex: 10;
+      -ms-flex: 10;
+          flex: 10;
+  background-color: #888899;
+}
+
+.pages #mainSection #footerMain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: .1rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-color: #08001c;
+}
+
+.pages #mainSection #footerMain #form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 80%;
+  height: 90%;
+  margin: .2rem;
+}
+
+.pages #mainSection #footerMain #form #msgText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 90%;
+  height: 90%;
+  padding: .1rem 1rem;
+  border-radius: 1rem 0 0 1rem;
+  outline: none;
+  border: none;
+  background-color: #01030c;
+  overflow: hidden;
+}
+
+.pages #mainSection #footerMain #form #sndMsg {
+  cursor: pointer;
+  color: #08001c;
+  padding: 0 .5rem;
+  height: 50%;
+  border-radius: 0 1rem 1rem 0;
+  font-weight: bold;
+  outline: none;
+  border: none;
+}
