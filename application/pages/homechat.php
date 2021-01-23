@@ -211,14 +211,14 @@
 				</div>
 			</div>
 		</main>
-
-		<footer id="footerMain">
-			<form id="form">
-				<textarea id="msgText" cols="30" rows="1"></textarea>
-				<button type="submit" id="sndMsg">Send</button>
-			</form>
-		</footer>
 	</section>
+
+	<footer id="footerMain">
+		<form id="form">
+			<textarea id="msgText" cols="30" rows="1"></textarea>
+			<button type="submit" id="sndMsg">Send</button>
+		</form>
+	</footer>
 </body>
 
 </html>

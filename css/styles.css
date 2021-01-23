@@ -37,6 +37,7 @@ html {
       -ms-flex-direction: column;
           flex-direction: column;
   background-color: #08001c;
+  z-index: 1;
 }
 
 .pages #leftSection #userProfile {
@@ -149,6 +150,7 @@ html {
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #2e2d2d;
+  padding: 0 .5rem;
   margin: .5rem;
   border-radius: .5rem;
 }
@@ -176,6 +178,13 @@ html {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
+  height: 93%;
+  padding-bottom: 2rem;
+  position: absolute;
+  bottom: 5rem;
+  top: 0;
+  overflow-y: auto;
+  z-index: 0;
 }
 
 .pages #mainSection #headerMain {
@@ -216,8 +225,9 @@ html {
           flex: 10;
   background-color: #888899;
   overflow-y: auto;
-  padding: .2rem;
+  padding: .3rem;
   font-family: sans-serif;
+  font-size: 1.2rem;
 }
 
 .pages #mainSection #main .otherUsers {
@@ -228,7 +238,7 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 90%;
+  width: 85%;
   margin: .5rem;
   -ms-flex-item-align: start;
       align-self: flex-start;
@@ -269,7 +279,7 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 90%;
+  width: 85%;
   margin: .5rem;
   -ms-flex-item-align: end;
       align-self: flex-end;
@@ -303,21 +313,24 @@ html {
   font-weight: bold;
 }
 
-.pages #mainSection #footerMain {
+.pages #footerMain {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  height: 7%;
   padding: .1rem;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
   background-color: #08001c;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
 }
 
-.pages #mainSection #footerMain #form {
+.pages #footerMain #form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -332,7 +345,7 @@ html {
   margin: .2rem;
 }
 
-.pages #mainSection #footerMain #form #msgText {
+.pages #footerMain #form #msgText {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -352,7 +365,7 @@ html {
   overflow: hidden;
 }
 
-.pages #mainSection #footerMain #form #sndMsg {
+.pages #footerMain #form #sndMsg {
   cursor: pointer;
   color: #08001c;
   padding: 0 .5rem;
