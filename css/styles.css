@@ -38,6 +38,7 @@ html {
           flex-direction: column;
   background-color: #08001c;
   z-index: 1;
+  display: none;
 }
 
 .pages #leftSection #userProfile {
@@ -71,10 +72,12 @@ html {
   border-radius: 50%;
   margin: .2rem auto;
   background-color: #ff7b00;
+  overflow: hidden;
 }
 
 .pages #leftSection #userProfile #userImage img {
   width: 7.5rem;
+  border-radius: 50%;
 }
 
 .pages #leftSection #userProfile #userName {
@@ -132,10 +135,11 @@ html {
   border-radius: 50%;
   background-color: #00d9ff;
   margin: .1rem;
+  overflow: hidden;
 }
 
 .pages #leftSection #users .user .anyUserImage img {
-  width: 100%;
+  width: 3rem;
   border-radius: 50%;
 }
 
@@ -259,14 +263,20 @@ html {
   -ms-flex-item-align: start;
       align-self: flex-start;
   background-color: #593b3b;
+  font-weight: bold;
 }
 
 .pages #mainSection #main .otherUsers .otherUserProfil img {
   width: 1.8rem;
-  margin: .1rem 1rem;
+  margin: .1rem .5rem;
+  background-color: #00aeff;
+  border-radius: 50%;
+  padding: .2rem;
 }
 
 .pages #mainSection #main .otherUsers .otherUsersMsg {
+  font-family: 'Fira Code';
+  font-size: .9rem;
   margin-top: .5rem;
   font-weight: bold;
 }
@@ -301,14 +311,20 @@ html {
   -ms-flex-item-align: end;
       align-self: flex-end;
   background-color: #3a0303;
+  font-weight: bold;
 }
 
 .pages #mainSection #main .currentUser .currentUserProfil img {
   width: 1.8rem;
-  margin: .1rem 1rem;
+  margin: .1rem .5rem;
+  background-color: #00aeff;
+  border-radius: 50%;
+  padding: .2rem;
 }
 
 .pages #mainSection #main .currentUser .currentUserMsg {
+  font-family: 'Fira Code';
+  font-size: .9rem;
   margin-top: .5rem;
   font-weight: bold;
 }
