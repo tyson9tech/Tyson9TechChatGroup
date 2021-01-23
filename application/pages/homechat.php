@@ -11,7 +11,9 @@
 <body class="pages">
 	<aside id="leftSection">
 		<div id="userProfile">
-			<div id="userImage"></div>
+			<div id="userImage">
+				<img src="../../css/ui/user_male_icon.png">
+			</div>
 			<div id="userName">
 				Tyson9Tech
 			</div>
@@ -22,7 +24,9 @@
 
 		<ul id="users">
 			<li class="user">
-				<div class="anyUserImage"></div>
+				<div class="anyUserImage">
+					<img src="../../css/ui/user_male_icon.png">
+				</div>
 				<div class="anyUserName">
 					CarlSax2000
 				</div>
@@ -31,7 +35,9 @@
 				</div>
 			</li>
 			<li class="user">
-				<div class="anyUserImage"></div>
+				<div class="anyUserImage">
+					<img src="../../css/ui/user_male_icon.png">
+				</div>
 				<div class="anyUserName">
 					BilardoTech
 				</div>
@@ -40,7 +46,9 @@
 				</div>
 			</li>
 			<li class="user">
-				<div class="anyUserImage"></div>
+				<div class="anyUserImage">
+					<img src="../../css/ui/user_female_icon.png">
+				</div>
 				<div class="anyUserName">
 					PacieAug10
 				</div>
@@ -49,7 +57,9 @@
 				</div>
 			</li>
 			<li class="user">
-				<div class="anyUserImage"></div>
+				<div class="anyUserImage">
+					<img src="../../css/ui/user_female_icon.png">
+				</div>
 				<div class="anyUserName">
 					DaphTech99
 				</div>
@@ -58,7 +68,9 @@
 				</div>
 			</li>
 			<li class="user">
-				<div class="anyUserImage"></div>
+				<div class="anyUserImage">
+					<img src="../../css/ui/user_female_icon.png">
+				</div>
 				<div class="anyUserName">
 					BeonVae08
 				</div>
@@ -67,7 +79,9 @@
 				</div>
 			</li>
 			<li class="user">
-				<div class="anyUserImage"></div>
+				<div class="anyUserImage">
+					<img src="../../css/ui/user_female_icon.png">
+				</div>
 				<div class="anyUserName">
 					ChristEti_21
 				</div>
@@ -76,7 +90,9 @@
 				</div>
 			</li>
 			<li class="user">
-				<div class="anyUserImage"></div>
+				<div class="anyUserImage">
+					<img src="../../css/ui/user_male_icon.png">
+				</div>
 				<div class="anyUserName">
 					WenChyPrice95
 				</div>
@@ -85,7 +101,9 @@
 				</div>
 			</li>
 			<li class="user">
-				<div class="anyUserImage"></div>
+				<div class="anyUserImage">
+					<img src="../../css/ui/user_female_icon.png">
+				</div>
 				<div class="anyUserName">
 					LeandreWoodly
 				</div>
@@ -94,7 +112,9 @@
 				</div>
 			</li>
 			<li class="user">
-				<div class="anyUserImage"></div>
+				<div class="anyUserImage">
+					<img src="../../css/ui/user_male_icon.png">
+				</div>
 				<div class="anyUserName">
 					Noir_Gatz
 				</div>
@@ -103,7 +123,9 @@
 				</div>
 			</li>
 			<li class="user">
-				<div class="anyUserImage"></div>
+				<div class="anyUserImage">
+					<img src="../../css/ui/user_female_icon.png">
+				</div>
 				<div class="anyUserName">
 					MonteauDa
 				</div>
@@ -112,7 +134,9 @@
 				</div>
 			</li>
 			<li class="user">
-				<div class="anyUserImage"></div>
+				<div class="anyUserImage">
+					<img src="../../css/ui/user_male_icon.png">
+				</div>
 				<div class="anyUserName">
 					Billy124
 				</div>

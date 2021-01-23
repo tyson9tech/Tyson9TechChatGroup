@@ -55,12 +55,25 @@ html {
 }
 
 .pages #leftSection #userProfile #userImage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   cursor: pointer;
   width: 7rem;
   height: 7rem;
-  background-color: #ffffff;
   border-radius: 50%;
   margin: .2rem auto;
+  background-color: #ff7b00;
+}
+
+.pages #leftSection #userProfile #userImage img {
+  width: 7.5rem;
 }
 
 .pages #leftSection #userProfile #userName {
@@ -104,11 +117,25 @@ html {
 }
 
 .pages #leftSection #users .user .anyUserImage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 50%;
-  background-color: #ffffff;
+  background-color: #00d9ff;
   margin: .1rem;
+}
+
+.pages #leftSection #users .user .anyUserImage img {
+  width: 100%;
+  border-radius: 50%;
 }
 
 .pages #leftSection #users .user .anyUserName {
@@ -123,6 +150,7 @@ html {
           justify-content: center;
   background-color: #2e2d2d;
   margin: .5rem;
+  border-radius: .5rem;
 }
 
 .pages #leftSection #users .user .status {
@@ -172,6 +200,7 @@ html {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2rem;
   font-weight: bold;
+  margin: 1rem;
 }
 
 .pages #mainSection #main {
