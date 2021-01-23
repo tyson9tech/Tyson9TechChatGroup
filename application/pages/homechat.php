@@ -152,7 +152,65 @@
 			<h1 id="chatTittle">Tyson9Tech Chat Group</h1>
 		</header>
 
-		<main id="main"></main>
+		<main id="main">
+			<div class="otherUsers">
+				<div class="otherUserProfil">
+					<div class="otherUsersImg">
+						<img src="../../css/ui/user_male_icon.png">
+					</div>
+					<div class="otherUsersName">
+						CarlSax2000
+					</div>
+				</div>
+				<div class="otherUsersMsg">
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, sint?
+				</div>
+			</div>
+
+			<div class="currentUser">
+				<div class="currentUserProfil">
+					<div class="currentUserImg">
+						<img src="../../css/ui/user_male_icon.png">
+					</div>
+					<div class="currentUserName">
+						Tyson9Tech
+					</div>
+				</div>
+
+				<div class="currentUserMsg">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum odit quam quae rem minus reprehenderit quia laboriosam veritatis, obcaecati libero.
+				</div>
+			</div>
+			<div class="otherUsers">
+				<div class="otherUserProfil">
+					<div class="otherUsersImg">
+						<img src="../../css/ui/user_female_icon.png">
+					</div>
+					<div class="otherUsersName">
+						DaphTech99
+					</div>
+				</div>
+				<div class="otherUsersMsg">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum odit quam quae rem minus reprehenderit quia laboriosam veritatis, obcaecati libero.
+				</div>
+			</div>
+
+			<div class="currentUser">
+
+				<div class="currentUserProfil">
+					<div class="currentUserImg">
+						<img src="../../css/ui/user_male_icon.png">
+					</div>
+					<div class="currentUserName">
+						Tyson9Tech
+					</div>
+				</div>
+
+				<div class="currentUserMsg">
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, sint?
+				</div>
+			</div>
+		</main>
 
 		<footer id="footerMain">
 			<form id="form">
